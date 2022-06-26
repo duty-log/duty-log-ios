@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90BD43602869246E0062869D /* DutyLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD435F2869246E0062869D /* DutyLogApp.swift */; };
+		90BD43622869246E0062869D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD43612869246E0062869D /* Persistence.swift */; };
+		90BD43652869246E0062869D /* DutyLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90BD43632869246E0062869D /* DutyLog.xcdatamodeld */; };
+		90BD43672869246E0062869D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD43662869246E0062869D /* ContentView.swift */; };
+		90BD4369286924700062869D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD4368286924700062869D /* Assets.xcassets */; };
+		90BD436D286924700062869D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD436C286924700062869D /* Preview Assets.xcassets */; };
+		90BD4377286924700062869D /* DutyLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4376286924700062869D /* DutyLogTests.swift */; };
+		90BD4381286924700062869D /* DutyLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4380286924700062869D /* DutyLogUITests.swift */; };
+		90BD4383286924700062869D /* DutyLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4382286924700062869D /* DutyLogUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90BD4373286924700062869D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90BD43542869246E0062869D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90BD435B2869246E0062869D;
+			remoteInfo = DutyLog;
+		};
+		90BD437D286924700062869D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90BD43542869246E0062869D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90BD435B2869246E0062869D;
+			remoteInfo = DutyLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90BD435C2869246E0062869D /* DutyLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DutyLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BD435F2869246E0062869D /* DutyLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyLogApp.swift; sourceTree = "<group>"; };
+		90BD43612869246E0062869D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		90BD43642869246E0062869D /* DutyLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DutyLog.xcdatamodel; sourceTree = "<group>"; };
+		90BD43662869246E0062869D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90BD4368286924700062869D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90BD436A286924700062869D /* DutyLog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DutyLog.entitlements; sourceTree = "<group>"; };
+		90BD436C286924700062869D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90BD4372286924700062869D /* DutyLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DutyLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BD4376286924700062869D /* DutyLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyLogTests.swift; sourceTree = "<group>"; };
+		90BD437C286924700062869D /* DutyLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DutyLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BD4380286924700062869D /* DutyLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyLogUITests.swift; sourceTree = "<group>"; };
+		90BD4382286924700062869D /* DutyLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90BD43592869246E0062869D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD436F286924700062869D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD4379286924700062869D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90BD43532869246E0062869D = {
+			isa = PBXGroup;
+			children = (
+				90BD435E2869246E0062869D /* DutyLog */,
+				90BD4375286924700062869D /* DutyLogTests */,
+				90BD437F286924700062869D /* DutyLogUITests */,
+				90BD435D2869246E0062869D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90BD435D2869246E0062869D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90BD435C2869246E0062869D /* DutyLog.app */,
+				90BD4372286924700062869D /* DutyLogTests.xctest */,
+				90BD437C286924700062869D /* DutyLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90BD435E2869246E0062869D /* DutyLog */ = {
+			isa = PBXGroup;
+			children = (
+				90BD435F2869246E0062869D /* DutyLogApp.swift */,
+				90BD43612869246E0062869D /* Persistence.swift */,
+				90BD43662869246E0062869D /* ContentView.swift */,
+				90BD4368286924700062869D /* Assets.xcassets */,
+				90BD436A286924700062869D /* DutyLog.entitlements */,
+				90BD43632869246E0062869D /* DutyLog.xcdatamodeld */,
+				90BD436B286924700062869D /* Preview Content */,
+			);
+			path = DutyLog;
+			sourceTree = "<group>";
+		};
+		90BD436B286924700062869D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90BD436C286924700062869D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90BD4375286924700062869D /* DutyLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				90BD4376286924700062869D /* DutyLogTests.swift */,
+			);
+			path = DutyLogTests;
+			sourceTree = "<group>";
+		};
+		90BD437F286924700062869D /* DutyLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90BD4380286924700062869D /* DutyLogUITests.swift */,
+				90BD4382286924700062869D /* DutyLogUITestsLaunchTests.swift */,
+			);
+			path = DutyLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90BD435B2869246E0062869D /* DutyLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BD4386286924700062869D /* Build configuration list for PBXNativeTarget "DutyLog" */;
+			buildPhases = (
+				90BD43582869246E0062869D /* Sources */,
+				90BD43592869246E0062869D /* Frameworks */,
+				90BD435A2869246E0062869D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DutyLog;
+			productName = DutyLog;
+			productReference = 90BD435C2869246E0062869D /* DutyLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90BD4371286924700062869D /* DutyLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BD4389286924700062869D /* Build configuration list for PBXNativeTarget "DutyLogTests" */;
+			buildPhases = (
+				90BD436E286924700062869D /* Sources */,
+				90BD436F286924700062869D /* Frameworks */,
+				90BD4370286924700062869D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90BD4374286924700062869D /* PBXTargetDependency */,
+			);
+			name = DutyLogTests;
+			productName = DutyLogTests;
+			productReference = 90BD4372286924700062869D /* DutyLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90BD437B286924700062869D /* DutyLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BD438C286924700062869D /* Build configuration list for PBXNativeTarget "DutyLogUITests" */;
+			buildPhases = (
+				90BD4378286924700062869D /* Sources */,
+				90BD4379286924700062869D /* Frameworks */,
+				90BD437A286924700062869D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90BD437E286924700062869D /* PBXTargetDependency */,
+			);
+			name = DutyLogUITests;
+			productName = DutyLogUITests;
+			productReference = 90BD437C286924700062869D /* DutyLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90BD43542869246E0062869D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					90BD435B2869246E0062869D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					90BD4371286924700062869D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 90BD435B2869246E0062869D;
+					};
+					90BD437B286924700062869D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 90BD435B2869246E0062869D;
+					};
+				};
+			};
+			buildConfigurationList = 90BD43572869246E0062869D /* Build configuration list for PBXProject "DutyLog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90BD43532869246E0062869D;
+			productRefGroup = 90BD435D2869246E0062869D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90BD435B2869246E0062869D /* DutyLog */,
+				90BD4371286924700062869D /* DutyLogTests */,
+				90BD437B286924700062869D /* DutyLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90BD435A2869246E0062869D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BD436D286924700062869D /* Preview Assets.xcassets in Resources */,
+				90BD4369286924700062869D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD4370286924700062869D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD437A286924700062869D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90BD43582869246E0062869D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BD43602869246E0062869D /* DutyLogApp.swift in Sources */,
+				90BD43652869246E0062869D /* DutyLog.xcdatamodeld in Sources */,
+				90BD43672869246E0062869D /* ContentView.swift in Sources */,
+				90BD43622869246E0062869D /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD436E286924700062869D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BD4377286924700062869D /* DutyLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD4378286924700062869D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BD4381286924700062869D /* DutyLogUITests.swift in Sources */,
+				90BD4383286924700062869D /* DutyLogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90BD4374286924700062869D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90BD435B2869246E0062869D /* DutyLog */;
+			targetProxy = 90BD4373286924700062869D /* PBXContainerItemProxy */;
+		};
+		90BD437E286924700062869D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90BD435B2869246E0062869D /* DutyLog */;
+			targetProxy = 90BD437D286924700062869D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		90BD4384286924700062869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90BD4385286924700062869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		90BD4387286924700062869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DutyLog/DutyLog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DutyLog/Preview Content\"";
+				DEVELOPMENT_TEAM = PVX2XCZ59T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triciadipiazza.DutyLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90BD4388286924700062869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DutyLog/DutyLog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DutyLog/Preview Content\"";
+				DEVELOPMENT_TEAM = PVX2XCZ59T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triciadipiazza.DutyLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90BD438A286924700062869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PVX2XCZ59T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triciadipiazza.DutyLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DutyLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DutyLog";
+			};
+			name = Debug;
+		};
+		90BD438B286924700062869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PVX2XCZ59T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triciadipiazza.DutyLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DutyLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DutyLog";
+			};
+			name = Release;
+		};
+		90BD438D286924700062869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PVX2XCZ59T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triciadipiazza.DutyLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DutyLog;
+			};
+			name = Debug;
+		};
+		90BD438E286924700062869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PVX2XCZ59T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triciadipiazza.DutyLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DutyLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90BD43572869246E0062869D /* Build configuration list for PBXProject "DutyLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90BD4384286924700062869D /* Debug */,
+				90BD4385286924700062869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BD4386286924700062869D /* Build configuration list for PBXNativeTarget "DutyLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90BD4387286924700062869D /* Debug */,
+				90BD4388286924700062869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BD4389286924700062869D /* Build configuration list for PBXNativeTarget "DutyLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90BD438A286924700062869D /* Debug */,
+				90BD438B286924700062869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BD438C286924700062869D /* Build configuration list for PBXNativeTarget "DutyLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90BD438D286924700062869D /* Debug */,
+				90BD438E286924700062869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90BD43632869246E0062869D /* DutyLog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90BD43642869246E0062869D /* DutyLog.xcdatamodel */,
+			);
+			currentVersion = 90BD43642869246E0062869D /* DutyLog.xcdatamodel */;
+			path = DutyLog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90BD43542869246E0062869D /* Project object */;
+}
