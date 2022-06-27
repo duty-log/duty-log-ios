@@ -16,6 +16,7 @@
 		90BD4377286924700062869D /* DutyLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4376286924700062869D /* DutyLogTests.swift */; };
 		90BD4381286924700062869D /* DutyLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4380286924700062869D /* DutyLogUITests.swift */; };
 		90BD4383286924700062869D /* DutyLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4382286924700062869D /* DutyLogUITestsLaunchTests.swift */; };
+		90BD4395286929BE0062869D /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4394286929BE0062869D /* AuthenticationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		90BD437C286924700062869D /* DutyLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DutyLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BD4380286924700062869D /* DutyLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyLogUITests.swift; sourceTree = "<group>"; };
 		90BD4382286924700062869D /* DutyLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90BD4394286929BE0062869D /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,9 @@
 		90BD435E2869246E0062869D /* DutyLog */ = {
 			isa = PBXGroup;
 			children = (
+				90BD438F2869259F0062869D /* Models */,
 				90BD435F2869246E0062869D /* DutyLogApp.swift */,
+				90BD4394286929BE0062869D /* AuthenticationView.swift */,
 				90BD43612869246E0062869D /* Persistence.swift */,
 				90BD43662869246E0062869D /* ContentView.swift */,
 				90BD4368286924700062869D /* Assets.xcassets */,
@@ -133,6 +137,13 @@
 				90BD4382286924700062869D /* DutyLogUITestsLaunchTests.swift */,
 			);
 			path = DutyLogUITests;
+			sourceTree = "<group>";
+		};
+		90BD438F2869259F0062869D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 				90BD43652869246E0062869D /* DutyLog.xcdatamodeld in Sources */,
 				90BD43672869246E0062869D /* ContentView.swift in Sources */,
 				90BD43622869246E0062869D /* Persistence.swift in Sources */,
+				90BD4395286929BE0062869D /* AuthenticationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

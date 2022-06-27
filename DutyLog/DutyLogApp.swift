@@ -13,8 +13,10 @@ struct DutyLogApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthenticationView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
